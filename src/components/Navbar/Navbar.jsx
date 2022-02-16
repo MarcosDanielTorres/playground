@@ -10,7 +10,6 @@ const Navbar = () => {
             <img src={logo} alt="lmao logo" />
         </div>
         <ul className="app__navbar-links">
-            <li >How To Buy</li>
             <li >Whitepaper</li>
             <li >Moon Map</li>
             <li >Tokenomics</li>
