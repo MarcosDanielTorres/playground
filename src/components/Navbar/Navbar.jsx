@@ -10,6 +10,7 @@ const Navbar = () => {
         <div className="app__navbar-logo">
             <img src={logo} alt="lmao logo" />
         </div>
+
             <ul className="app__navbar-links">
                 <li >How To Buy</li>
                <li >Whitepaper</li>
@@ -22,4 +23,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
