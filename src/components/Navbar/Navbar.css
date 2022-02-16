@@ -5,14 +5,16 @@
 }
 
 .app__navbar{
+    padding-top: 2rem;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    color: red;
 }
 
 .app__navbar-logo{
-    padding-left: 5rem;
+    margin-right: 20rem;
 }
 
 .app__navbar-logo img{
@@ -27,4 +29,15 @@
 .app__navbar-links li{
     padding: 2rem 2rem;
     font-size: 2rem;
+}
+
+.app__navbar-button{
+    background-color: rgb(228, 174, 196);
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.app__navbar-button:hover{
+    background-color: red;
+
 }
