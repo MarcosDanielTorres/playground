@@ -1,9 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import {Footer} from './components'
+import {Navbar} from './components'
 
 function App() {
   return (
-    <h1>"hola munndo</h1>
+    <div>
+      <Navbar/>
+      <Footer/>
+    </div>
   );
 }
 
